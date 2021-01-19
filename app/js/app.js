@@ -26,7 +26,7 @@ async function main() {
   // graph = iStorylineInstance.deleteCharacter('TT2')
   // graph = iStorylineInstance.changeCharacter('TT3', [[1, 5], [7, 22]])
   // graph = iStorylineInstance.addSession([0, 1, 2, 3], [1, 9])
-  iStorylineInstance.dump(fileName + '.json', 'json')
+  //iStorylineInstance.dump(fileName + '.json', 'json')
   logStoryInfo(iStorylineInstance._story)
   const storylinePaths = graph.storylinePaths
   storylinePaths.forEach(storylinePath => drawStorylinePath(storylinePath))
