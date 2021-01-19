@@ -4,6 +4,7 @@
 ![](https://img.shields.io/github/downloads/tangtan/iStoryline.js/total)
 ![](https://img.shields.io/github/package-json/v/tangtan/iStoryline.js)
 ![](https://img.shields.io/github/license/tangtan/iStoryline.js)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/tangtan/iStoryline.js)
 
 iStoryline.js is a JavaScript library for producing storyline visualizations with diverse sketchy styles. [Storyline visualization](https://xkcd.com/657/) is a fancy way to tell a story. Lines represent characters in the story. This fancy visualization naturally has some advantages in explaining the story:
 
