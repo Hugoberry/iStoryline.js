@@ -1,6 +1,6 @@
 {
-  "name": "istorylinejs",
-  "version": "0.0.1",
+  "name": "i-storyline-js",
+  "version": "0.0.7",
   "description": "Implementation of [iStoryline](http://www.tantang.org/publication/2018_infovis_istoryline/2018_infovis_istoryline.pdf)",
   "keywords": [
     "Storyline",
@@ -15,6 +15,10 @@
   "module": "index",
   "jsnext:main": "index",
   "license": "Apache-2.0",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/tangtan/iStoryline.js"
@@ -25,7 +29,7 @@
     }
   },
   "scripts": {
-    "build": "babel src -d build",
+    "build": "babel src -d dist",
     "start": "webpack-dev-server",
     "test": "mocha -r esm --recursive"
   },
